@@ -1,0 +1,374 @@
+body {
+    padding: 3% 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+input {
+    border: none;
+}
+
+select {
+    border: none;
+    background-color: white;
+}
+
+header {
+    font-size: 1.1em;
+}
+
+.mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info{
+    width: 100%;
+}
+
+.info form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.infoc{
+    width: 50%;
+} 
+
+form h2{
+    font-size: 1em;
+    font-weight: 700;
+}
+
+form p{
+    font-size: 0.7em;
+}
+
+.i-container{
+    border: 1.5px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10%;
+    width: 80%;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.i-container img{
+    width: 7%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.ci{
+    margin-bottom: 10%;
+}
+
+.i-container2{
+    border: 1.5px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10%;
+    width: 90%;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.i-container2 img{
+    width: 13%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.c-pc{
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.check p{
+    font-weight: bold;
+}
+
+.check input{
+    margin-right: 1%;
+}
+
+.submit{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit input{
+    color: white;
+    border-radius: 10%;
+    background-color: rgb(253, 113, 62);
+    width: 25%;
+    height: 5vh;
+}
+
+.carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    width: 33%;
+    height: 50vh;
+}
+
+.img-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 35vh;
+}
+
+.itemc{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 13vh;
+}
+
+.img-c img{
+    width: 40%;
+    border-radius: 5%;
+}
+
+.inf-c{
+    width: 40%;
+    margin-left: 3%;
+}
+
+.name{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name p{
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.orange{
+    color: rgb(253, 113, 62);
+    font-style: italic;
+}
+
+.rayado{
+    color: black;
+    text-decoration: line-through;
+}
+
+.i-container3{
+    border: 1.5px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10%;
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input[value="1"]{
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+input[value="2"]{
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+.total{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 2%;
+}
+
+.total p{
+    font-weight: bold;
+}
+
+.line{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.creator {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 800px){
+    body {
+        padding: 2% 7%;
+    }
+
+    header {
+        font-size: 1em;
+    }
+
+    .i-container{
+        width: 70%;
+        height: 3vh;
+    }
+
+    .i-container2{
+        width: 70%;
+        height: 3vh;
+    }
+
+    .i-container2 input{
+        width: 80%;
+    }
+
+    select{
+        width: 80%;
+    }
+
+    .carrito{
+        width: 38%;
+        height: 45vh;
+    }
+
+    .img-c{
+        height: 30vh;
+    }
+
+    .name{
+        width: 100%;
+    }
+
+    .name p{
+        font-size: 0.6em;
+    }
+
+    .itemc{
+        width: 88%;
+        height: 11vh;
+    }
+
+    .inf-c{
+        width: 50%;
+
+    }
+}
+
+@media screen and (max-width: 500px){
+    body {
+        padding: 1% 2%;
+    }
+
+    header {
+        font-size: 0.8em;
+    }
+
+    .inf-c{
+        width: 50%;
+    }
+
+    .carrito{
+        width: 50%;
+        height: 45vh;
+    }
+
+    .check p{
+        font-size: 0.6em;
+    }
+
+    .i-container{
+        width: 90%;
+    }
+
+    .c-pc{
+        width: 100%;
+    }
+
+    .i-container2{
+        width: 81%;
+    }
+
+    .check{
+        width: 96%
+    }
+
+    .submit{
+        width: 92%;
+    }
+
+    .submit input{
+        width: 30%;
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    header {
+        font-size: 0.7em;
+    }
+
+    .info form{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .infoc{
+        width: 100%;
+    } 
+
+    .carrito{
+        width: 100%;
+    } 
+
+    form h2{
+        font-size: 0.9em;
+    }
+    
+    form p{
+        font-size: 0.6em;
+    }
+
+    .i-container{
+        width: 98%;
+    }
+
+    .i-container2{
+        width: 97%;
+    }
+
+    .creator{
+        font-size: 0.8em;
+    }
+}
+
